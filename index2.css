@@ -1,0 +1,62 @@
+/* 
+Color palette - 
+- #FFCDB2
+- #FFB4A2
+- #E5989B
+- #B5838D
+- #6D6875
+*/
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #6D6875;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tweet-field {
+    width: 200px;
+    resize: none;
+    border: 1px solid #FFCDB2;
+}
+
+.tweet-btn {
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0;
+    padding: 10px 70px;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;  
+}
+
+.tweet-field-container {
+    display: flex;
+    justify-content: center;
+}
+
+.feed-container {
+    background-color: whitesmoke;
+}
+
+.feed-tweet-container {
+    /* display: flex;
+    justify-content: center; */
+    width:500px;
+    text-align: left;
+    margin: 20px auto;
+}
+.feed-tweet-info-wrapper {
+    margin-left: 10px;
+}
+/* utility classes */
+.like-color {
+    color: red;
+}
+.retweet-color {
+    color: green;
+}
+.hidden-element {
+    display: none;
+}
